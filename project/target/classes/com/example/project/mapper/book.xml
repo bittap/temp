@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mybatis.mapper.mapperBook">
+   <select id="bookList" resultType="map" parameterType="map">
+      SELECT title, writer, company, rel_date, price, img_file FROM book
+      WHERE title LIKE '%' || #{keyword} || '%'
+       OR writer LIKE '%' || #{keyword} || '%' 
+      OR company LIKE '%' || #{keyword} || '%'   
+   </select>
+</mapper>
