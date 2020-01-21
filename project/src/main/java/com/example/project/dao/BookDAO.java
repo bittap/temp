@@ -12,12 +12,12 @@ public class BookDAO {
 	private SqlSessionTemplate sqlSessionTemplate = null;
 	
 	/**********************************************************
-	 * °Ë»ö±â´É
-	 * @param °Ë»öÇßÀ» ¶§ÀÇ Å°¿öµå
-	 * @return µ¥ÀÌÅÍ Á¶È¸ ÈÄ BookVo¸®½ºÆ® return 
+	 * ê²€ìƒ‰ê¸°ëŠ¥
+	 * @param ê²€ìƒ‰í–ˆì„ ë•Œì˜ í‚¤ì›Œë“œ
+	 * @return ë°ì´í„° ì¡°íšŒ í›„ BookVoë¦¬ìŠ¤íŠ¸ return 
 	 **********************************************************/
 	public List<BookVO> search(String keyWord){
-		// sqlSessionTemplate »ç¿ëÇØ¼­ myBatis Á¶È¸ ÈÄ ³Ö¾îÁÖ¼¼¿ä
+		// sqlSessionTemplate ì‚¬ìš©í•´ì„œ myBatis ì¡°íšŒ í›„ ë„£ì–´ì£¼ì„¸ìš”
 		List<BookVO> list = null;
 		return list;
 	}

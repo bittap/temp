@@ -20,17 +20,17 @@ public class BookController {
 	
 	@RequestMapping(value = "search")
 	public String search(@RequestParam(value = "serachString") String keyWord) {
-		// bLogic¸¦ »ç¿ëÇØ¼­ List<BookVO>¿¡ °ªÀ» ÀÏ´Ü ³Ö¾îÁÖ¼¼¿ä
+		// bLogicë¥¼ ì‚¬ìš©í•´ì„œ List<BookVO>ì— ê°’ì„ ì¼ë‹¨ ë„£ì–´ì£¼ì„¸ìš”
 		
-		// List<BookVO>¸¦ Json ÆÄ½ÌÇØÁÖ¼¼¿ä
+		// List<BookVO>ë¥¼ Json íŒŒì‹±í•´ì£¼ì„¸ìš”
 		
-		// Json ÆÄ½ÌÇÑ °ªÀ» StringÀ¸·Î º¯È¯ÇØ¼­ listÆäÀÌÁö¿¡ º¸³»ÁÖ¼¼¿ä
+		// Json íŒŒì‹±í•œ ê°’ì„ Stringìœ¼ë¡œ ë³€í™˜í•´ì„œ listí˜ì´ì§€ì— ë³´ë‚´ì£¼ì„¸ìš”
 		return "/board/list";
 	}
 	
 	@RequestMapping(value = "book")
 	public ModelAndView list() {
-		// ³Ñ±â´Â °ªÀÌ ¾øÀ¸¹Ç·Î ModelAndView¿¡ url¸¸ ³Ö¾î¼­ redirectÇØÁÖ¼¼¿ä
+		// ë„˜ê¸°ëŠ” ê°’ì´ ì—†ìœ¼ë¯€ë¡œ ModelAndViewì— urlë§Œ ë„£ì–´ì„œ redirectí•´ì£¼ì„¸ìš”
 		return null;
 	}
 }

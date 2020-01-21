@@ -12,12 +12,12 @@ public class BookLogic {
 	BookDAO bDAO;
 	
 	/**********************************************************
-	 * dao±â´É È£Ãâ
-	 * @param °Ë»öÇßÀ» ¶§ÀÇ Å°¿öµå
-	 * @return BookDAO¿¡ °¡Á®¿Â °ª Return
+	 * daoê¸°ëŠ¥ í˜¸ì¶œ
+	 * @param ê²€ìƒ‰í–ˆì„ ë•Œì˜ í‚¤ì›Œë“œ
+	 * @return BookDAOì— ê°€ì ¸ì˜¨ ê°’ Return
 	 **********************************************************/
 	public List<BookVO> search(String keyWord){
-		// bDAO¸¦ »ç¿ëÇØ¼­ search¸Ş¼Òµå¸¦ »ç¿ëÇØ¼­ ¸®ÅÏÇÏ¼¼¿ä
+		// bDAOë¥¼ ì‚¬ìš©í•´ì„œ searchë©”ì†Œë“œë¥¼ ì‚¬ìš©í•´ì„œ ë¦¬í„´í•˜ì„¸ìš”
 		return null;
 	}
 }
